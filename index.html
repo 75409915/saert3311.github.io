@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/estilos.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tienda XYZ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Otro</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Usuario
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Login</a></li>
+                <li><a class="dropdown-item" href="#">Carrito</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Salir</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Vender</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://picsum.photos/seed/sladkhnbadrfg/1920/400" alt="">
+  
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Producto Brutal</h1>
+              <p>Garantia absoluta y dedicada.</p>
+              <p><a class="btn btn-lg btn-primary" href="mailto:jose.duarte@trinum.xyz">Email</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/seed/sdfserggaaew/1920/400" alt="">
+  
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Has visto esta cosa genial.</h1>
+              <p>Lo que hace lo hace mejor que nadie.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Como es eso?</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/seed/sdfvnxcvb3343/1920/400" alt="">
+  
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Si no te convenzo esto si.</h1>
+              <p>Lo que hacia antes, ahora lo hace en la mitad de tiempo!.</p>
+              <p><a class="btn btn-lg btn-primary" href="tel:9123411234">Llamame</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+<div class="container principal">
+  <div class="row m-4">
+    <div class="col">
+        <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Dime Lindura ❤
+  </button>
+  <button type="button" class="btn btn-primary" id="liveToastBtn">Saluditos ✌</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium aliquam deserunt maxime voluptatum ea dolorum, modi aperiam laborum explicabo, debitis, ipsa unde possimus illum eaque eum! Veritatis nemo non perspiciatis?</p>
+      <div class="card">
+        <img src="https://picsum.photos/seed/aflknvnfWER/400/200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, aliquam! Itaque quod labore, similique quo vitae maxime voluptate aperiam. Ut repellendus reprehenderit dolore ratione fugit recusandae modi eos molestias dolorum?</p>
+      <div class="card">
+        <img src="https://picsum.photos/seed/sadfbnvbviof/400/200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quaerat, ad dolore ducimus non velit. Veniam ullam, excepturi cumque, nemo voluptates enim doloremque atque eius ea, necessitatibus facilis neque ipsum.</p>
+      <div class="card">
+        <img src="https://picsum.photos/seed/asdjfhsdkf/400/200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolorem dolore esse iusto laborum corporis id sint ex ullam praesentium. Repudiandae atque facere ea ad eaque, minima ipsam libero animi.</p>
+      <div class="card">
+        <img src="https://picsum.photos/seed/sdfadfvadfg/400/200" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="max-width:595px!important;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Foto simpatica</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="card">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/apcsH_Wt1DQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <span>😊</span>
+      <strong class="me-auto">Wuenas</strong>
+      <small>Hace ratico</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hola como tai?, todo bien por aqui.
+    </div>
+  </div>
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+    <script>
+      var toastTrigger = document.getElementById('liveToastBtn')
+var toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', function () {
+    var toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}
+    </script>
+  </body>
+</html>
